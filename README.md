@@ -1,4 +1,11 @@
 cpp-httplib
+```c
+/*
+Note：
+1、该项目的名称为是 cpp-httplib ,这是一个 C++ 编程语言编写的 HTTP 相关的第三方库。
+2、这个代码分支的作用是为了学习 cpp-httplib 这个第三方库。
+*/
+```
 ===========
 
 [![](https://github.com/yhirose/cpp-httplib/workflows/test/badge.svg)](https://github.com/yhirose/cpp-httplib/actions)
@@ -6,9 +13,26 @@ cpp-httplib
 A C++11 single-file header-only cross platform HTTP/HTTPS library.
 
 It's extremely easy to set up. Just include the **httplib.h** file in your code!
-
+```c
+/*
+Note：
+1、优点
+  1.1 C++ 11 语言标准规范编写的。
+  1.2 如果使用这个第三库的话只需要单个文件。
+  1.3 该第三方库只有头文件，没有其他的源文件。
+  1.4 该第三方库原生支持跨平台。
+  1.5 该第三方库是一个 HTTP/HTTPS 相关的库。
+2、该第三方库非常容易设置使用，在代码中只需要包含 httplib.h 这个单文件即可。
+*/
+```
 > [!IMPORTANT]
 > This library uses 'blocking' socket I/O. If you are looking for a library with 'non-blocking' socket I/O, this is not the one that you want.
+```c
+/*
+Note：
+1、cpp-httplib 该第三方库使用了 blocking socket I/O，如果你想要使用一个不使用 blocking socket I/O 的库，那么该第三方库不是你想要的。
+*/
+```
 
 Simple examples
 ---------------
@@ -53,7 +77,12 @@ SSL Support
 -----------
 
 SSL support is available with `CPPHTTPLIB_OPENSSL_SUPPORT`. `libssl` and `libcrypto` should be linked.
-
+```c
+/*
+Note：
+1、cpp-httplib 该第三方库支持 SSL ,可以通过定义 CPPHTTPLIB_OPENSSL_SUPPORT 来h获取 SSL 支持，libssl 和 libcrypto 这两个库需要被链接。
+*/
+```
 > [!NOTE]
 > cpp-httplib currently supports only version 3.0 or later. Please see [this page](https://www.openssl.org/policies/releasestrat.html) to get more information.
 
